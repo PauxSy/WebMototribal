@@ -1,0 +1,331 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 85%;
+    height: 290px;
+    margin-left: 18%;
+    padding: 25px 0;
+    display: flex; /* Activa Flexbox para el contenedor */
+}
+
+.container-1 {
+    width: 45%;
+    height: 50%;
+    margin-left: 25%;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container-2 {
+    width: 45%;
+    height: 450px;
+    padding: 10px 0;
+    margin-left: 25%; 
+}
+
+.container-3 {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    text-align: center
+}
+
+.caracteristica {
+    display: flex; /* Activa Flexbox para el contenedor */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias filas si es necesario */
+    justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+    padding: 0%;
+}
+
+.caracteristica f img{
+    width: 45%; /* Reduce el ancho de la imagen al 50% */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    margin-left: -13px;
+    padding: 0%;
+  }
+
+  .caracteristica k img{
+    width: 45%; /* Reduce el ancho de la imagen al 50% */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    margin-left: -10px;
+    padding: 0%;
+  }
+
+  .caracteristica a img{
+    width: 90%; /* Reduce el ancho de la imagen al 50% */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    justify-content: space-around; /* Distribuye los elementos con espacio alrededor */
+    margin-left: -10px;
+    height: 65%;
+    margin-top: 20px;
+    padding: 4px;
+}
+
+.caracteristica a h3{
+    text-align: center;
+    margin-right: 20px;
+    
+}
+
+header {
+    background-color: #333;
+    background-image: url("https://i.postimg.cc/RvbwNHPq/collagetapices.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; 
+    text-align: center;
+    padding: 100px 0;
+    width: 99%;
+}
+.btn {
+    display: inline-block;
+    background-color: #fa2626;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header h1{
+    font-size: 2.1em;
+    
+}
+
+.btn:hover{
+    background-color: #0056b3;
+}
+
+
+section {
+    padding: 50px 0;
+}
+
+h2 { 
+    text-align: center;
+}
+
+
+.caracteristicas {  
+    text-align: center;
+}
+
+.encabezado h2 {
+    font-size: 180%;
+    text-shadow: 2px 2px 4px rgba(138, 137, 137, 0.5); /* Sombra opcional para resaltar el texto */
+
+}
+
+.testimonio{
+    background-color: #e4e1e1;
+    padding: 2%;
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 15px;
+}
+
+.testimonio p {
+    font-style: italic;
+    border-style:solid;
+    border:#333;
+    text-align: center;
+}
+
+.testimonio cite{
+    font-weight: bold;
+    align-items: center;
+}
+
+.container-1 h2{
+    padding: 0;
+    color:#151515;
+    text-shadow: 2px 2px 4px rgba(96, 95, 95, 0.5); /* Sombra opcional para resaltar el texto */
+    margin-left: 10%;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc
+}
+
+button[type="submit"]:hover{
+    background-color: #8e2121;
+    
+}
+
+button[tupe="submit"]{
+    background-color: #e73030;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+  
+  /* Estilo para el texto con fondo detrás de las letras */
+  .container-encabezado {
+    padding: 20px; /* Ajusta el relleno según sea necesario */
+    background-color: rgba(54, 52, 52, 0.5); /* Fondo gris semi transparente */
+    box-sizing: border-box;
+    border-radius: 20px; /* Redondea los bordes */
+    width: fit-content; /* Ajusta el ancho automáticamente al contenido */
+    height: auto;
+    margin: 7% auto; /* Centra el elemento horizontalmente */
+    text-align: center; /* Centra el contenido del elemento */
+    align-content: center;
+  }
+
+
+  .borde-inferior- {
+    width: 100%; /* Abarca todo el ancho del encabezado */
+    height: 100px; /* Establece el alto de la línea */
+    background-color: black; /* Define el color de fondo como negro */
+    border-style:solid;
+}
+
+.borde-inferior-1 {
+    width: 100%; /* Abarca todo el ancho del encabezado */
+    height: 150px; /* Establece el alto de la línea */
+    background-color: rgb(64, 63, 63); /* Define el color de fondo como negro */
+    border-style:solid;
+}
+
+  .container-encabezado h1 {
+    font-size: 24px; /* Tamaño de fuente */
+    color: #ffffff; /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra opcional para resaltar el texto */
+  }
+  
+  .container-encabezado p {
+    margin: 10px 0; /* Espacio entre el párrafo y el título */
+    align-items: center;
+  }
+  
+  .container-encabezado a.btn {
+    display: inline-block; /* Permite establecer dimensiones */
+    padding: 10px 20px; /* Ajusta el relleno del botón según sea necesario */
+    background-color: #000000; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto del botón */
+    border-radius: 5px; /* Redondea los bordes del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave */
+    align-items: center;
+    text-align: center;
+  }
+  
+  .container-encabezado a.btn:hover {
+    background-color: #ff0000; /* Cambia el color de fondo al pasar el mouse */
+    color: #ffffff; /* Cambia el color del texto al pasar el mouse */
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline; /* Hace que los ítems del menú estén en una línea horizontal */
+    margin-right: 20px; /* Espacio entre los ítems del menú */
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container-menu{
+    width: 97.35%;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(54, 54, 54));
+    align-items: center;
+    padding: 1.5%;
+    display: flex;
+    margin: 0;
+    text-align: right;
+    margin-left: 0px;
+}
+
+.container-menu nav li:hover {
+    color: red;
+}
+
+.container-menu nav{
+    display: inline;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra opcional para resaltar el texto */
+}
+
+.container-menu nav ul li a:hover{
+    text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+.logo {
+    margin-right: 20px; /* Añade un margen a la derecha del logo para separarlo del menú */
+    margin-bottom: -1.5%;
+    margin-top: -1.5%;
+    width: 7.1%;
+    height: 12%;
+}
+
+nav {
+    flex-grow: 1; /* Permite que el menú ocupe todo el espacio restante */
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
